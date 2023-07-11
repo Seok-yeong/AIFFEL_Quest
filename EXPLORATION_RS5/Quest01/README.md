@@ -21,24 +21,17 @@
 # 개선 사항 제안 
 Project_02_Bicycle.ipynb 코드 일부 :
 
+```python
 #특성간 상관관계 분석
-
 train.corr()['count'].sort_values(ascending=False)
-
 from sklearn.model_selection import train_test_split
-
 #(4) X, y 컬럼 선택 및 train/test 데이터 분리
-
 #X(feature) 에는 어떤 데이터 컬럼을 넣어야 될지 고민해 봅시다.
-
 #만일 모든 데이터 컬럼(특징)을 넣는다면 오차 값이 말도 안 되게 적게 나올 수도 있습니다.   
-
 #count 값을 맞추고자 하므로, y 변수에 count 컬럼의 데이터 넣기
-
 features = ['temp', 'humidity', 'windspeed', 'weather', 'registered']        # 주석 또는 데이터 분석 과정 또는 여러 feature 값에 대한 experiment 등의 과정을 추가하여, 다음과 같은 feature 를 선택하게 된 과정이 포함되어있었다면 데이터 분석 측면에서 좋았을 것 같습니다.
-
 X = train[features]
-
 y = train['count']
+```
 
 # 참고 링크 및 코드 개선
