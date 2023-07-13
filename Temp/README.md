@@ -1,5 +1,5 @@
 # AIFFEL Campus Online 5th Code Peer Review Templete
-- 코더 : 조대호
+- 코더 : 최한준
 - 리뷰어 : 김석영
 
 
