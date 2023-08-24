@@ -9,9 +9,9 @@
   > 네!
 
 ```python
-입력 문장: 특히 고도가 높은 곳에서 약해진 육체적 지구력을 일부 회복시켜주는 데 유용하다는 것이
+입력 문장: 한반도의 평화를 위해 북한의 핵무장을 반대한다.
 
-예측된 번역: the korea times reports korea s consumer confidence has seen concerns about the korean peninsula. <end> 
+예측된 번역: he adds to the korean peninsula.
 
 ```
 
