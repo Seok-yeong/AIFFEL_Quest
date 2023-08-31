@@ -9,6 +9,7 @@
 ## Directory tree
 📦BERT_mskim  
  ┣ 📂data  
+ ┃ ┣ 📜test.json
  ┃ ┣ 📜test.csv  
  ┃ ┣ 📜train_aug.csv  
  ┃ ┣ 📜train.csv  
