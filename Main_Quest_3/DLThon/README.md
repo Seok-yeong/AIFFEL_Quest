@@ -10,7 +10,7 @@
 📦BERT_mskim  
  ┣ 📂data  
  ┃ ┣ 📜test.json
- ┃ ┣ 📜test.csv  
+ ┃ ┣ 📜train_aug_10.csv 
  ┃ ┣ 📜train_aug.csv  
  ┃ ┣ 📜train.csv  
  ┃ ┣ 📜val.csv  
