@@ -10,11 +10,10 @@
 📦BERT_mskim  
  ┣ 📂data  
  ┃ ┣ 📜test.json
- ┃ ┣ 📜train_aug_10.csv 
- ┃ ┣ 📜train_aug.csv  
+ ┃ ┣ 📜train_aug.csv 
+ ┃ ┣ 📜train_aug10.csv  
  ┃ ┣ 📜train.csv  
- ┃ ┣ 📜val.csv  
- ┃ ┗ 📜mysubmission.csv  
+ ┃ ┣ 📜val.csv
  ┣ 📜eda.ipynb  
  ┣ 📜bert_10aug.ipynb  
  ┣ 📜preprocessing.ipynb  
