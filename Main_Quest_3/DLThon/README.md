@@ -14,9 +14,10 @@
  ┃  ┣ 📜train_aug10.csv     
  ┃  ┣ 📜train.csv      
  ┃  ┣ 📜val.csv      
- ┣ 📜eda.ipynb  
- ┣ 📜bert_10aug.ipynb  
- ┣ 📜preprocessing.ipynb  
+ ┃  ┣ 📜README.md      
+ ┣ 📜Text Classification_BERT(KLUE).ipynb  
+ ┣ 📜Text Classification_Transformer Encoder.ipynb  
+ ┣ 📜Text Classification_LSTM.ipynb  
  ┗ 📜README.md  
  
 ---
@@ -42,9 +43,9 @@
         > `from sklearn.model_selection import train_test_split`
     ---
     - 모델 파라미터
-        - `MAX_LEN`: 400
-        - `BATCH_SIZE`: 16
-        - `LEARNING_RATE`: 2e-5
+        - `MAX_LEN`: 200
+        - `BATCH_SIZE`: 32
+        - `LEARNING_RATE`: 5e-5
         - `EPOCH`: 1
     ---
     - 모델 평가
