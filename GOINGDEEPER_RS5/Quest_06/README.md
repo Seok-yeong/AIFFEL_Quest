@@ -93,19 +93,19 @@
 
       
       def calculate_bleu_single(sentence, reference_sentence, verbose=True, weights=[0.25, 0.25, 0.25, 0.25]):
-          # preprocess and tokenize input sentence
+          # 전처리와 토큰화
           sentence = preprocess_sentence(sentence)
           tokens = mecab.morphs(sentence)
           tokenized_sentence = [word_to_index.get(token, word_to_index["<unk>"]) for token in tokens]
       
-          # get predicted translation
+          # 예측(번역) 결과 얻기
           translation = evaluate(sentence)
           candidate = translation.split()
       
-          # get reference translation
+          # 참조 번역문
           reference = reference_sentence.split()
       
-          # calculate BLEU score with smoothing function
+          # BLEU score 계산
           score = sentence_bleu([reference], 
                                 candidate, 
                                 weights=weights, 
